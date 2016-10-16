@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+<body>
+{{ partial "navbar.html" . }}
+
+<div class="container">
+    <div class="row">
+  <div>
+   <h1 id="title">{{ .Title }} .... Whoops! something bad happened here</h1>
+    <center><img src="http://files.sharenator.com/121256xcitefun_error_404_1-s600x398-220298.jpg" class="img-responsive"></center>
+    <p>I couldn't find what you were looking for! The admins was notified, don't worry!</p>
+  </div>
+    </div>
+{{ partial "footer.copyright.html" . }}
+</div>
+{{ partial "footer.html" . }}
