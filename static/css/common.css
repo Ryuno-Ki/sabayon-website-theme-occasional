@@ -240,3 +240,94 @@ div.feature-box div.feature-box-icon i.image-icon.small {
       color:#000;
       border: solid rgba(187, 184, 180, 0.7);
 }
+
+/* ****** Occassional theme ****** **/
+.navbar {
+    background: #036 !important; /* because style attributes */
+    box-shadow: none !important; /* because style attributes */
+    border: none;
+    /* box-shadow: 5px 0px -6px -6px #006bb2; */
+}
+
+.services .container {
+    border-radius: 5px;
+}
+
+body,
+.services,
+.info,
+.jumbotron,
+.community,
+.copyright,
+.documentation,
+.fun_facts,
+.services .container,
+#getit,
+#getit .col-md-4 {
+    background: #036;
+}
+
+a,
+.navbar-default .navbar-nav > li > a,
+#getit {
+    color: #ff7518;
+}
+
+.headline .link-button {
+    color: #ff7518 !important;  /* because inline style */
+}
+
+#SERVICE h1,
+#SERVICE h2 {
+    text-align: center;
+}
+
+.row > div {
+    padding: 5px 15px;
+}
+
+h1,
+h2,
+h3,
+.fun_facts,
+.services {
+    color: #f8f8ff;
+}
+
+.fa-download,
+.fa-newspaper-o {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.fa-download::before,
+.fa-newspaper-o::before {
+    background-size: 21px 21px;
+    content: '';
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+    vertical-align: middle;
+}
+
+.fa-download::before {
+    background-image: url('../halloween/32/Download.png');
+}
+
+.fa-newspaper-o::before {
+    background-image: url('../halloween/32/RSS.png');
+}
+
+.btn-circle.btn-xl {
+    padding: 0;
+    height: 80px;
+    width: 80px;
+}
+
+.flavour-cloud,
+.flavour-desktop,
+.flavour-server,
+.flavour-testing {
+    background: transparent;
+    color: inherit;
+}
